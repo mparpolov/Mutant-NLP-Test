@@ -13,7 +13,7 @@ target = iris.target
 
 data_train, data_test, target_train, target_test = train_test_split(data, target, test_size=0.2)
 
-# Programaticaly find best K
+# Programmatically find best K
 scores = []
 for k in range(1, 50):
   model = KNeighborsClassifier(n_neighbors = k, algorithm = 'brute')
@@ -26,7 +26,7 @@ optimal_k = errors.index(min(errors))
 
 print('Optimum K for this dataset: ' + str(optimal_k))
 
-# Calc new model using optimal N
+# Calc new model using optimal K
 model = KNeighborsClassifier(n_neighbors = optimal_k)
 model.fit(data_train, target_train)
 predictions = model.predict(data_test)
