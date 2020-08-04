@@ -4,7 +4,7 @@
 - KNN: K Nearest Neighbors
 
 ### Métricas
-As métricas abaixo foram geradas utilizando 70% do Dataset para trienamento e 30% para testes:
+As métricas abaixo foram geradas utilizando 70% do Dataset para treinamento e 30% para testes:
 
 - Número ótimo de K: 5
 - Porcentagem de Acertos: 96,67%
@@ -22,11 +22,11 @@ As métricas abaixo foram geradas utilizando 70% do Dataset para trienamento e 3
 | macro avg | 0.97 | 0.97 | 0.97 | 30 |
 | weighted avg | 0.97 | 0.97 |0.97 | 30 |
 
-Conforme os gráficos abaixo, as previsões realizadas pelo modelo tiveram alto indícide de acertos:
+Conforme os gráficos abaixo, as classificaões realizadas pelo modelo obtiveram alto indíce de acertos:
 ![Iris Datasets](https://github.com/mauUsatai/Mutant-NLP-Test/blob/master/iris_classification.png)
 
 ### Seu modelo obteve um bom resultado de classificação?
-Sim, o modelo pode classificar dados não encontrados antes com 96,67% de precisão.
+Sim, o modelo pode classificar dados não presentes no set de treinamento com 96,67% de precisão.
 
 ### Como você fez para avaliar?
 Os dados necessários para a avaliação da precisão do modelo podem ser encontrados nas tabelas acima. De acordo com a tabela por classes, o modelo obteve ótimos resultados apresentando 100% de acerto (verdadeiros positivos) nas classes Setosa e Versicolor. Obtendo também 92% de verdadeiros positivos na classe Virginica. Também de acordo com as tabelas, o modelo possui baixo índice de falsos negativos (recall).
