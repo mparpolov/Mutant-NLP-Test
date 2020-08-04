@@ -22,7 +22,7 @@ As métricas abaixo foram geradas utilizando 80% do Dataset para treinamento e 2
 | macro avg | 0.97 | 0.97 | 0.97 | 30 |
 | weighted avg | 0.97 | 0.97 |0.97 | 30 |
 
-Conforme os gráficos abaixo, as classificaões realizadas pelo modelo obtiveram alto indíce de acertos:
+Conforme os gráficos abaixo, as classificações realizadas pelo modelo obtiveram alto indíce de acertos:
 ![Iris Datasets](https://github.com/mauUsatai/Mutant-NLP-Test/blob/master/iris_classification.png)
 
 ### Seu modelo obteve um bom resultado de classificação?
