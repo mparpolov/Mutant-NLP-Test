@@ -1,21 +1,21 @@
 # Desafio Mutant - Analista de NLP Jr
 
-#### Algoritmo Escolhido
+### Algoritmo Escolhido
 - KNN: K Nearest Neighbors
 
-#### Métricas
+### Métricas
 As métricas abaixo foram geradas utilizando 70% do Dataset para trienamento e 30% para testes:
 
 - Número ótimo de K: 5
 - Porcentagem de Acertos: 96,67%
-#### Tabelas de Classificações:
-Por Classe:
+### Tabelas de Classificações:
+#### Por Classe:
 | - |  precision  |  recall | f1-score |  support |
 | ------ | ------ | ------ | ----- | ----- |
 | Iris-Setosa | 1.00 | 1.00 | 1.00 | 7 |
 | Iris-Virginica | 0.92 | 1.00 | 0.96 | 12 |
 | Iris-Versicolor | 1.00 | 0.91 | 0.95 | 11 |
-Geral:
+#### Geral:
 | - |  precision  |  recall | f1-score |  support |
 | ------ | ------ | ------ | ----- | ----- |
 | accuracy | - | - | 0.97 | 30 |
@@ -23,7 +23,7 @@ Geral:
 | weighted avg | 0.97 | 0.97 |0.97 | 30 |
 
 Conforme os gráficos abaixo, as previsões realizadas pelo modelo tiveram alto indícide de acertos:
-![Iris Datasets](https://github.com/mauUsatai/Mutant-NLP-Test/blob/master/iris_classification.jpg?raw=true)
+![Iris Datasets](https://github.com/mauUsatai/Mutant-NLP-Test/blob/master/iris_classification.png)
 
 ### Seu modelo obteve um bom resultado de classificação?
 Sim, o modelo pode classificar dados não encontrados antes com 96,67% de precisão.
