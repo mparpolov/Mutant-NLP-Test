@@ -4,7 +4,7 @@
 - KNN: K Nearest Neighbors
 
 ### Métricas
-As métricas abaixo foram geradas utilizando 70% do Dataset para treinamento e 30% para testes:
+As métricas abaixo foram geradas utilizando 80% do Dataset para treinamento e 20% para testes:
 
 - Número ótimo de K: 5
 - Porcentagem de Acertos: 96,67%
